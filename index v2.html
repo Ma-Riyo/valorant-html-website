@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant | Tactical Shooter Guide</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f1923;
+            color: #ece8e1;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #ff4655;
+            padding: 30px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 8px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1a252e;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #ff4655;
+            border-bottom: 2px solid #ff4655;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+        .section-box {
+            margin-bottom: 40px;
+            padding: 15px;
+        }
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background-color: #2a353d;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ff4655;
+            text-align: left;
+        }
+        th {
+            background-color: #ff4655;
+            color: white;
+        }
+        /* Agent Grid */
+        .agent-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+        .agent-card {
+            background-color: #2a353d;
+            padding: 15px;
+            border-radius: 5px;
+            border-bottom: 4px solid #ff4655;
+            transition: transform 0.3s;
+        }
+        .agent-card:hover {
+            transform: translateY(-5px);
+        }
+        .agent-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.9em;
+            color: #7e7e7e;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>VALORANT</h1>
+    </header>
+
+    <div class="container">
+        <section class="section-box">
+            <h2>About the Game</h2>
+            <p>Released in June 2020 by Riot Games, Valorant is a 5v5 character-based tactical shooter. It combines precise gunplay with diverse ability sets. Set in a near-future Earth, players control "Agents" who are members of the Valorant Protocol, defending the world against Radiant threats.</p>
+        </section>
+
+        <section class="section-box">
+            <h2>How to Play</h2>
+            <p>The game is played in a round-based format between <strong>Attackers</strong> and <strong>Defenders</strong>.</p>
+            <ul>
+                <li><strong>The Spike:</strong> Attackers carry the Spike to plant it at a site. Defenders must stop them or defuse it within 45 seconds.</li>
+                <li><strong>Economy:</strong> You earn credits every round to buy better weapons (like the Vandal or Phantom) and shields.</li>
+                <li><strong>Abilities:</strong> Each Agent has a unique set of four abilities that can turn the tide of battle.</li>
+            </ul>
+        </section>
+
+        <section class="section-box">
+            <h2>Match Structure & Scoring</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Objective</th>
+                        <th>Requirement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Winning Condition</td>
+                        <td>First team to reach 13 rounds wins.</td>
+                    </tr>
+                    <tr>
+                        <td>Side Swap</td>
+                        <td>Teams switch sides after round 12.</td>
+                    </tr>
+                    <tr>
+                        <td>Elimination</td>
+                        <td>Winning a round by killing all 5 enemies.</td>
+                    </tr>
+                    <tr>
+                        <td>Plant/Defuse</td>
+                        <td>Winning by successfully detonating or defusing the Spike.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section-box">
+            <h2>Featured Agents</h2>
+            <div class="agent-grid">
+                <div class="agent-card">
+                    <img src="jett.jpg" alt="Jett">
+                    <h3>Jett</h3>
+                    <p><strong>Duelist (South Korea):</strong> An agile fighter who can dash and hover, making her difficult to track in combat.</p>
+                </div>
+                <div class="agent-card">
+                    <img src="sage.jpeg" alt="Sage">
+                    <h3>Sage</h3>
+                    <p><strong>Sentinel (China):</strong> A support expert who heals teammates, creates barriers, and can revive the dead.</p>
+                </div>
+                <div class="agent-card">
+                    <img src="neon.jpg" alt="Neon">
+                    <h3>Neon</h3>
+                    <p><strong>Duelist (Philippines):</strong> The speedster. She uses bioelectrical charges to sprint fast and slide into battle, striking enemies with lightning.</p>
+                </div>
+                <div class="agent-card">
+                    <img src="omen.jpg" alt="Omen">
+                    <h3>Omen</h3>
+                    <p><strong>Controller (Unknown):</strong> A shadow-user who teleports and blinds enemies to control the map's vision.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Valorant Mario Activity | Images for educational purposes.</p>
+    </footer>
+
+</body>
+</html>
